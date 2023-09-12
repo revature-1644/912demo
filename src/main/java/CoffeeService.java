@@ -37,6 +37,9 @@ public class CoffeeService {
     public int getServings(){
         return servings;
     }
+    public double getRevenue(){
+        return revenue;
+    }
     public void purchase(){
         if( servings > 0 ){
             servings = servings - 1;
